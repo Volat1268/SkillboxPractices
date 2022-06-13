@@ -14,4 +14,6 @@ for i in dogs_points:
     if i > maks:
         maks = i
 print('maks:', maks, 'min', minim)
+print(dogs_points.index(maks))
+print(dogs_points.index(minim))
 
