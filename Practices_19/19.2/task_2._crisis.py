@@ -21,7 +21,7 @@ incomes = {
 }
 
 all_income = 0
-for v_item in sorted(incomes.values()):
+for v_item in incomes.values():
     all_income += v_item
 print('Общий доход за год составил {} рублей'.format(all_income))
 print('Самый маленький доход у {title}. Он составляет {summ} руб.'
